@@ -1,0 +1,2447 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 2.36.0 (20140111.2315)
+%%Title: %3
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 2078 520
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 2042 484 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+% [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1480 458 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1476.5 454.3 moveto 7 (7) alignedtext
+grestore
+% [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+855 370 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+844 366.3 moveto 22 (6/-1) alignedtext
+grestore
+% [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]->[matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1453.5 453.36 moveto
+1354.4 439.72 1004.8 391.62 891.07 375.96 curveto
+stroke
+0 0 0 edgecolor
+newpath 891.5 372.49 moveto
+881.12 374.59 lineto
+890.55 379.42 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 891.5 372.49 moveto
+881.12 374.59 lineto
+890.55 379.42 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1224 410.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1480 370 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1471 366.3 moveto 18 (5/1) alignedtext
+grestore
+% [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]->[matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1480 439.6 moveto
+1480 427.75 1480 411.82 1480 398.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1483.5 398.08 moveto
+1480 388.08 lineto
+1476.5 398.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1483.5 398.08 moveto
+1480 388.08 lineto
+1476.5 398.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1480 410.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1852 370 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1841 366.3 moveto 22 (4/-1) alignedtext
+grestore
+% [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]->[matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1505.3 451.16 moveto
+1570.1 436.17 1742.3 396.35 1816.8 379.13 curveto
+stroke
+0 0 0 edgecolor
+newpath 1817.74 382.51 moveto
+1826.7 376.85 lineto
+1816.17 375.68 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1817.74 382.51 moveto
+1826.7 376.85 lineto
+1816.17 375.68 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1699 410.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+568 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+557 278.3 moveto 22 (5/-1) alignedtext
+grestore
+% [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 830.53 361.67 moveto
+779.38 346.34 661.03 310.88 602.31 293.28 curveto
+stroke
+0 0 0 edgecolor
+newpath 602.99 289.83 moveto
+592.41 290.31 lineto
+600.98 296.54 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 602.99 289.83 moveto
+592.41 290.31 lineto
+600.98 296.54 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+738 322.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+808 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+797 278.3 moveto 22 (4/-1) alignedtext
+grestore
+% [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 846.16 352.82 moveto
+839.27 340.21 829.57 322.47 821.68 308.03 curveto
+stroke
+0 0 0 edgecolor
+newpath 824.67 306.2 moveto
+816.8 299.1 lineto
+818.52 309.55 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 824.67 306.2 moveto
+816.8 299.1 lineto
+818.52 309.55 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+836 322.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+880 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+869 278.3 moveto 22 (3/-1) alignedtext
+grestore
+% [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 859.94 352.01 moveto
+863.43 339.99 868.19 323.64 872.19 309.87 curveto
+stroke
+0 0 0 edgecolor
+newpath 875.64 310.54 moveto
+875.07 299.96 lineto
+868.92 308.59 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 875.64 310.54 moveto
+875.07 299.96 lineto
+868.92 308.59 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+870 322.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1277 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1268 278.3 moveto 18 (4/1) alignedtext
+grestore
+% [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1457.9 359.63 moveto
+1421.8 344.36 1350.2 314.03 1308.8 296.45 curveto
+stroke
+0 0 0 edgecolor
+newpath 1309.97 293.15 moveto
+1299.4 292.49 lineto
+1307.26 299.6 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1309.97 293.15 moveto
+1299.4 292.49 lineto
+1307.26 299.6 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1397 322.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1480 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1471 278.3 moveto 18 (3/1) alignedtext
+grestore
+% [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1480 351.6 moveto
+1480 339.75 1480 323.82 1480 310.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1483.5 310.08 moveto
+1480 300.08 lineto
+1476.5 310.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1483.5 310.08 moveto
+1480 300.08 lineto
+1476.5 310.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1480 322.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 2, level = 2, utility =1, player = MAX, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1557 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1548 278.3 moveto 18 (2/1) alignedtext
+grestore
+% [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 2, level = 2, utility =1, player = MAX, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1493.4 354.02 moveto
+1505.4 340.58 1523.3 320.67 1537 305.34 curveto
+stroke
+0 0 0 edgecolor
+newpath 1539.67 307.61 moveto
+1543.7 297.81 lineto
+1534.44 302.95 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1539.67 307.61 moveto
+1543.7 297.81 lineto
+1534.44 302.95 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1526 322.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1803 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1794 278.3 moveto 18 (3/1) alignedtext
+grestore
+% [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1842.8 352.82 moveto
+1835.6 340.21 1825.5 322.47 1817.3 308.03 curveto
+stroke
+0 0 0 edgecolor
+newpath 1820.2 306.05 moveto
+1812.2 299.1 lineto
+1814.12 309.52 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1820.2 306.05 moveto
+1812.2 299.1 lineto
+1814.12 309.52 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1831 322.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 2, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1889 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1880 278.3 moveto 18 (2/1) alignedtext
+grestore
+% [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 2, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1859.1 352.42 moveto
+1864.5 340.05 1871.8 322.91 1877.9 308.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 1881.13 310.1 moveto
+1881.9 299.53 lineto
+1874.71 307.31 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1881.13 310.1 moveto
+1881.9 299.53 lineto
+1874.71 307.31 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1873 322.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 1, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1991 282 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1980 278.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]->[matches : 1, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1871 357.22 moveto
+1894.8 342.51 1935.7 317.21 1963 300.3 curveto
+stroke
+0 0 0 edgecolor
+newpath 1965.04 303.15 moveto
+1971.7 294.91 lineto
+1961.36 297.2 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1965.04 303.15 moveto
+1971.7 294.91 lineto
+1961.36 297.2 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1933 322.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+280 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+269 190.3 moveto 22 (4/-1) alignedtext
+grestore
+% [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 543.94 273.82 moveto
+492.8 258.54 373.15 222.81 314.14 205.19 curveto
+stroke
+0 0 0 edgecolor
+newpath 314.77 201.73 moveto
+304.19 202.22 lineto
+312.77 208.43 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 314.77 201.73 moveto
+304.19 202.22 lineto
+312.77 208.43 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+450 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+531 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+520 190.3 moveto 22 (3/-1) alignedtext
+grestore
+% [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 560.87 264.42 moveto
+555.54 252.05 548.17 234.91 542.08 220.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 545.28 219.33 moveto
+538.11 211.53 lineto
+538.85 222.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 545.28 219.33 moveto
+538.11 211.53 lineto
+538.85 222.1 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+553 234.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+603 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+592 190.3 moveto 22 (2/-1) alignedtext
+grestore
+% [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 2, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 574.75 264.42 moveto
+579.74 252.16 586.62 235.24 592.35 221.16 curveto
+stroke
+0 0 0 edgecolor
+newpath 595.74 222.11 moveto
+596.27 211.53 lineto
+589.26 219.47 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 595.74 222.11 moveto
+596.27 211.53 lineto
+589.26 219.47 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+589 234.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+804 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+793 190.3 moveto 22 (3/-1) alignedtext
+grestore
+% [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 807.19 263.6 moveto
+806.64 251.75 805.9 235.82 805.27 222.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 808.76 221.9 moveto
+804.79 212.08 lineto
+801.76 222.23 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 808.76 221.9 moveto
+804.79 212.08 lineto
+801.76 222.23 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+807 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+891 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+880 190.3 moveto 22 (2/-1) alignedtext
+grestore
+% [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 882.17 264.01 moveto
+883.69 252.11 885.76 235.96 887.51 222.27 curveto
+stroke
+0 0 0 edgecolor
+newpath 891.03 222.32 moveto
+888.83 211.96 lineto
+884.09 221.43 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 891.03 222.32 moveto
+888.83 211.96 lineto
+884.09 221.43 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+887 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1149 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1138 190.3 moveto 22 (3/-1) alignedtext
+grestore
+% [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1258.7 268.68 moveto
+1237 254.12 1200.7 229.77 1175.9 213.07 curveto
+stroke
+0 0 0 edgecolor
+newpath 1177.55 209.97 moveto
+1167.3 207.3 lineto
+1173.65 215.78 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1177.55 209.97 moveto
+1167.3 207.3 lineto
+1173.65 215.78 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1225 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1251 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1240 190.3 moveto 22 (2/-1) alignedtext
+grestore
+% [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 2, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1271.9 264.01 moveto
+1268.2 251.99 1263.3 235.64 1259.1 221.87 curveto
+stroke
+0 0 0 edgecolor
+newpath 1262.35 220.52 moveto
+1256.1 211.96 lineto
+1255.65 222.55 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1262.35 220.52 moveto
+1256.1 211.96 lineto
+1255.65 222.55 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1267 234.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1323 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1314 190.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 1, level = 3, utility =1, player = MIN, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1285.7 264.82 moveto
+1292.4 252.21 1301.9 234.47 1309.6 220.03 curveto
+stroke
+0 0 0 edgecolor
+newpath 1312.75 221.57 moveto
+1314.4 211.1 lineto
+1306.58 218.25 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1312.75 221.57 moveto
+1314.4 211.1 lineto
+1306.58 218.25 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1305 234.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1467 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1456 190.3 moveto 22 (2/-1) alignedtext
+grestore
+% [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1477.4 264.01 moveto
+1475.6 251.99 1473.1 235.64 1471.1 221.87 curveto
+stroke
+0 0 0 edgecolor
+newpath 1474.56 221.32 moveto
+1469.6 211.96 lineto
+1467.64 222.37 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1474.56 221.32 moveto
+1469.6 211.96 lineto
+1467.64 222.37 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1475 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1539 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1530 190.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1490.8 265.23 moveto
+1499.6 252.38 1512.2 234.02 1522.3 219.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1525.44 220.9 moveto
+1528.2 210.67 lineto
+1519.66 216.95 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1525.44 220.9 moveto
+1528.2 210.67 lineto
+1519.66 216.95 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1515 234.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1611 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1602 190.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 2, level = 2, utility =1, player = MAX, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1566.9 265.23 moveto
+1574.9 252.46 1586.4 234.24 1595.6 219.57 curveto
+stroke
+0 0 0 edgecolor
+newpath 1598.65 221.29 moveto
+1601 210.96 lineto
+1592.72 217.57 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1598.65 221.29 moveto
+1601 210.96 lineto
+1592.72 217.57 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1588 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1719 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1708 190.3 moveto 22 (2/-1) alignedtext
+grestore
+% [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1788.8 266.41 moveto
+1775.5 252.82 1755.5 232.38 1740.3 216.84 curveto
+stroke
+0 0 0 edgecolor
+newpath 1742.79 214.38 moveto
+1733.3 209.66 lineto
+1737.77 219.26 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1742.79 214.38 moveto
+1733.3 209.66 lineto
+1737.77 219.26 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1768 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1791 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1782 190.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1800.6 264.01 moveto
+1799 251.99 1796.7 235.64 1794.7 221.87 curveto
+stroke
+0 0 0 edgecolor
+newpath 1798.17 221.42 moveto
+1793.4 211.96 lineto
+1791.23 222.33 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1798.17 221.42 moveto
+1793.4 211.96 lineto
+1791.23 222.33 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1798 234.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 0, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [0], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1863 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1852 190.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 0, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [0], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1814 265.23 moveto
+1823 252.38 1835.8 234.02 1846.1 219.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1849.26 220.88 moveto
+1852.1 210.67 lineto
+1843.51 216.88 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1849.26 220.88 moveto
+1852.1 210.67 lineto
+1843.51 216.88 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1838 234.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1935 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1926 190.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 2, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1897.7 264.82 moveto
+1904.4 252.21 1913.9 234.47 1921.6 220.03 curveto
+stroke
+0 0 0 edgecolor
+newpath 1924.75 221.57 moveto
+1926.4 211.1 lineto
+1918.58 218.25 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1924.75 221.57 moveto
+1926.4 211.1 lineto
+1918.58 218.25 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1916 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2007 194 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1996 190.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]->[matches : 0, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1994.2 264.01 moveto
+1996.4 251.99 1999.4 235.64 2002 221.87 curveto
+stroke
+0 0 0 edgecolor
+newpath 2005.46 222.42 moveto
+2003.8 211.96 lineto
+1998.57 221.17 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 2005.46 222.42 moveto
+2003.8 211.96 lineto
+1998.57 221.17 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+2000 234.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+133 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+124 102.3 moveto 18 (3/1) alignedtext
+grestore
+% [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 260.17 181.4 moveto
+234.86 166.59 190.86 140.85 161.84 123.87 curveto
+stroke
+0 0 0 edgecolor
+newpath 163.38 120.72 moveto
+152.98 118.69 lineto
+159.85 126.76 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 163.38 120.72 moveto
+152.98 118.69 lineto
+159.85 126.76 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+220 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+243 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+234 102.3 moveto 18 (2/1) alignedtext
+grestore
+% [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 2, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 272.87 176.42 moveto
+267.54 164.05 260.17 146.91 254.08 132.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 257.28 131.33 moveto
+250.11 123.53 lineto
+250.85 134.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 257.28 131.33 moveto
+250.11 123.53 lineto
+250.85 134.1 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+265 146.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+315 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+304 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 286.75 176.42 moveto
+291.74 164.16 298.62 147.24 304.35 133.16 curveto
+stroke
+0 0 0 edgecolor
+newpath 307.74 134.11 moveto
+308.27 123.53 lineto
+301.26 131.47 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 307.74 134.11 moveto
+308.27 123.53 lineto
+301.26 131.47 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+301 146.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+459 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+450 102.3 moveto 18 (2/1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 518.46 178.02 moveto
+507.38 164.78 491.04 145.27 478.29 130.05 curveto
+stroke
+0 0 0 edgecolor
+newpath 480.74 127.52 moveto
+471.64 122.1 lineto
+475.37 132.02 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 480.74 127.52 moveto
+471.64 122.1 lineto
+475.37 132.02 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+502 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+531 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+520 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 531 175.6 moveto
+531 163.75 531 147.82 531 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 534.5 134.08 moveto
+531 124.08 lineto
+527.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 534.5 134.08 moveto
+531 124.08 lineto
+527.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+531 146.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+603 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+592 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 603 175.6 moveto
+603 163.75 603 147.82 603 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 606.5 134.08 moveto
+603 124.08 lineto
+599.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 606.5 134.08 moveto
+603 124.08 lineto
+599.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+603 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+675 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+666 102.3 moveto 18 (2/1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 785.52 180.68 moveto
+763.58 166.05 726.83 141.55 701.78 124.85 curveto
+stroke
+0 0 0 edgecolor
+newpath 703.71 121.93 moveto
+693.45 119.3 lineto
+699.83 127.76 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 703.71 121.93 moveto
+693.45 119.3 lineto
+699.83 127.76 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+752 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+747 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+736 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 793.55 177.23 moveto
+785.03 164.38 772.86 146.02 763.1 131.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 765.83 129.07 moveto
+757.39 122.67 lineto
+759.99 132.94 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 765.83 129.07 moveto
+757.39 122.67 lineto
+759.99 132.94 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+781 146.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 3, chosen = 0, path = [0], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+819 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+810 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 3, chosen = 0, path = [0], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 806.96 176.01 moveto
+809.06 163.99 811.91 147.64 814.31 133.87 curveto
+stroke
+0 0 0 edgecolor
+newpath 817.77 134.41 moveto
+816.04 123.96 lineto
+810.87 133.21 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 817.77 134.41 moveto
+816.04 123.96 lineto
+810.87 133.21 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+813 146.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+891 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+880 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 891 175.6 moveto
+891 163.75 891 147.82 891 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 894.5 134.08 moveto
+891 124.08 lineto
+887.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 894.5 134.08 moveto
+891 124.08 lineto
+887.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+891 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+963 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+954 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 903.54 178.02 moveto
+914.62 164.78 930.96 145.27 943.71 130.05 curveto
+stroke
+0 0 0 edgecolor
+newpath 946.63 132.02 moveto
+950.36 122.1 lineto
+941.26 127.52 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 946.63 132.02 moveto
+950.36 122.1 lineto
+941.26 127.52 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+934 146.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1035 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1026 102.3 moveto 18 (2/1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1131.7 179.94 moveto
+1112.8 165.67 1082.3 142.67 1060.6 126.31 curveto
+stroke
+0 0 0 edgecolor
+newpath 1062.59 123.42 moveto
+1052.5 120.18 lineto
+1058.36 129.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1062.59 123.42 moveto
+1052.5 120.18 lineto
+1058.36 129.01 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1103 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1107 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1096 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1140.9 176.42 moveto
+1134.8 163.97 1126.4 146.69 1119.4 132.48 curveto
+stroke
+0 0 0 edgecolor
+newpath 1122.43 130.7 moveto
+1114.9 123.24 lineto
+1116.13 133.76 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1122.43 130.7 moveto
+1114.9 123.24 lineto
+1116.13 133.76 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1132 146.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 3, chosen = 0, path = [0], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1179 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1170 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 3, chosen = 0, path = [0], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1154.9 176.01 moveto
+1159.2 163.8 1165 147.1 1169.9 133.2 curveto
+stroke
+0 0 0 edgecolor
+newpath 1173.24 134.25 moveto
+1173.2 123.66 lineto
+1166.62 131.97 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1173.24 134.25 moveto
+1173.2 123.66 lineto
+1166.62 131.97 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1167 146.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1251 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1240 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1251 175.6 moveto
+1251 163.75 1251 147.82 1251 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1254.5 134.08 moveto
+1251 124.08 lineto
+1247.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1254.5 134.08 moveto
+1251 124.08 lineto
+1247.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1251 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1323 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1314 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1323 175.6 moveto
+1323 163.75 1323 147.82 1323 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1326.5 134.08 moveto
+1323 124.08 lineto
+1319.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1326.5 134.08 moveto
+1323 124.08 lineto
+1319.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1323 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1395 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1384 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1454.5 178.02 moveto
+1443.4 164.78 1427 145.27 1414.3 130.05 curveto
+stroke
+0 0 0 edgecolor
+newpath 1416.72 127.49 moveto
+1407.6 122.1 lineto
+1411.37 132 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1416.72 127.49 moveto
+1407.6 122.1 lineto
+1411.37 132 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1438 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1467 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1458 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1467 175.6 moveto
+1467 163.75 1467 147.82 1467 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1470.5 134.08 moveto
+1467 124.08 lineto
+1463.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1470.5 134.08 moveto
+1467 124.08 lineto
+1463.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1467 146.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1539 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1530 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1539 175.6 moveto
+1539 163.75 1539 147.82 1539 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1542.5 134.08 moveto
+1539 124.08 lineto
+1535.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1542.5 134.08 moveto
+1539 124.08 lineto
+1535.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1539 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1611 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1602 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1611 175.6 moveto
+1611 163.75 1611 147.82 1611 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1614.5 134.08 moveto
+1611 124.08 lineto
+1607.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1614.5 134.08 moveto
+1611 124.08 lineto
+1607.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1611 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1683 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1672 102.3 moveto 22 (1/-1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1712.1 176.42 moveto
+1706.9 164.05 1699.7 146.91 1693.8 132.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 1697.02 131.38 moveto
+1689.9 123.53 lineto
+1690.57 134.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1697.02 131.38 moveto
+1689.9 123.53 lineto
+1690.57 134.1 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1704 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1755 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1746 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1725.9 176.42 moveto
+1731.1 164.05 1738.3 146.91 1744.2 132.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 1747.43 134.1 moveto
+1748.1 123.53 lineto
+1740.98 131.38 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1747.43 134.1 moveto
+1748.1 123.53 lineto
+1740.98 131.38 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1740 146.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1827 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1818 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1797.9 176.42 moveto
+1803.1 164.05 1810.3 146.91 1816.2 132.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 1819.43 134.1 moveto
+1820.1 123.53 lineto
+1812.98 131.38 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1819.43 134.1 moveto
+1820.1 123.53 lineto
+1812.98 131.38 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1812 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1935 106 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1926 102.3 moveto 18 (0/1) alignedtext
+grestore
+% [matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]->[matches : 0, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 3, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1935 175.6 moveto
+1935 163.75 1935 147.82 1935 134.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1938.5 134.08 moveto
+1935 124.08 lineto
+1931.5 134.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1938.5 134.08 moveto
+1935 124.08 lineto
+1931.5 134.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1935 146.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 2, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+27 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+16 14.3 moveto 22 (2/-1) alignedtext
+grestore
+% [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 2, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 116.44 91.56 moveto
+99.01 77.43 71.4 55.03 51.47 38.85 curveto
+stroke
+0 0 0 edgecolor
+newpath 53.42 35.93 moveto
+43.45 32.34 lineto
+49.01 41.36 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 53.42 35.93 moveto
+43.45 32.34 lineto
+49.01 41.36 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+90 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 5, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+99 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+90 14.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 1, level = 5, utility =1, player = MIN, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 126.44 88.42 moveto
+121.6 76.16 114.91 59.24 109.34 45.16 curveto
+stroke
+0 0 0 edgecolor
+newpath 112.47 43.55 moveto
+105.54 35.53 lineto
+105.95 46.12 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 112.47 43.55 moveto
+105.54 35.53 lineto
+105.95 46.12 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+120 58.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 3, chosen = 0, path = [0], parent = [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+171 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+160 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 3, chosen = 0, path = [0], parent = [matches : 3, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.33 88.42 moveto
+145.79 76.05 153.37 58.91 159.62 44.76 curveto
+stroke
+0 0 0 edgecolor
+newpath 162.86 46.09 moveto
+163.7 35.53 lineto
+156.45 43.26 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 162.86 46.09 moveto
+163.7 35.53 lineto
+156.45 43.26 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+156 58.3 moveto 7 (3) alignedtext
+grestore
+% [matches : 1, level = 5, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+243 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+234 14.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 1, level = 5, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 243 87.6 moveto
+243 75.75 243 59.82 243 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 246.5 46.08 moveto
+243 36.08 lineto
+239.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 246.5 46.08 moveto
+243 36.08 lineto
+239.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+243 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+315 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+304 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 3, chosen = 0, path = [1], parent = [matches : 4, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 315 87.6 moveto
+315 75.75 315 59.82 315 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 318.5 46.08 moveto
+315 36.08 lineto
+311.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 318.5 46.08 moveto
+315 36.08 lineto
+311.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+315 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 5, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+387 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+378 14.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 1, level = 5, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 446.46 90.02 moveto
+435.38 76.78 419.04 57.27 406.29 42.05 curveto
+stroke
+0 0 0 edgecolor
+newpath 408.74 39.52 moveto
+399.64 34.1 lineto
+403.37 44.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 408.74 39.52 moveto
+399.64 34.1 lineto
+403.37 44.01 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+430 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+459 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+448 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 459 87.6 moveto
+459 75.75 459 59.82 459 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 462.5 46.08 moveto
+459 36.08 lineto
+455.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 462.5 46.08 moveto
+459 36.08 lineto
+455.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+459 58.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+531 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+520 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 531 87.6 moveto
+531 75.75 531 59.82 531 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 534.5 46.08 moveto
+531 36.08 lineto
+527.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 534.5 46.08 moveto
+531 36.08 lineto
+527.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+531 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+603 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+592 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 3, chosen = 0, path = [2], parent = [matches : 5, level = 2, utility =-1, player = MAX, move = 1, chosen = 0, path = [5], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 603 87.6 moveto
+603 75.75 603 59.82 603 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 606.5 46.08 moveto
+603 36.08 lineto
+599.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 606.5 46.08 moveto
+603 36.08 lineto
+599.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+603 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 5, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+675 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+666 14.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 1, level = 5, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 675 87.6 moveto
+675 75.75 675 59.82 675 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 678.5 46.08 moveto
+675 36.08 lineto
+671.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 678.5 46.08 moveto
+675 36.08 lineto
+671.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+675 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+747 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+736 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =-1, player = MAX, move = 2, chosen = 0, path = [4], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 747 87.6 moveto
+747 75.75 747 59.82 747 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 750.5 46.08 moveto
+747 36.08 lineto
+743.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 750.5 46.08 moveto
+747 36.08 lineto
+743.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+747 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+891 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+880 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =-1, player = MAX, move = 3, chosen = 0, path = [3], parent = [matches : 6, level = 1, utility =-1, player = MIN, move = 1, chosen = 0, path = [6], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 891 87.6 moveto
+891 75.75 891 59.82 891 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 894.5 46.08 moveto
+891 36.08 lineto
+887.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 894.5 46.08 moveto
+891 36.08 lineto
+887.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+891 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 1, level = 5, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+963 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+954 14.3 moveto 18 (1/1) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 1, level = 5, utility =1, player = MIN, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1022.5 90.02 moveto
+1011.4 76.78 995.04 57.27 982.29 42.05 curveto
+stroke
+0 0 0 edgecolor
+newpath 984.74 39.52 moveto
+975.64 34.1 lineto
+979.37 44.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 984.74 39.52 moveto
+975.64 34.1 lineto
+979.37 44.01 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1006 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1035 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1024 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 2, chosen = 0, path = [0], parent = [matches : 2, level = 4, utility =1, player = MAX, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1035 87.6 moveto
+1035 75.75 1035 59.82 1035 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1038.5 46.08 moveto
+1035 36.08 lineto
+1031.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1038.5 46.08 moveto
+1035 36.08 lineto
+1031.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1035 58.3 moveto 7 (2) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1107 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1096 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 2, chosen = 0, path = [1], parent = [matches : 3, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1107 87.6 moveto
+1107 75.75 1107 59.82 1107 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1110.5 46.08 moveto
+1107 36.08 lineto
+1103.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1110.5 46.08 moveto
+1107 36.08 lineto
+1103.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1107 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1251 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1240 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 2, chosen = 0, path = [2], parent = [matches : 4, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [4], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1251 87.6 moveto
+1251 75.75 1251 59.82 1251 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1254.5 46.08 moveto
+1251 36.08 lineto
+1247.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1254.5 46.08 moveto
+1251 36.08 lineto
+1247.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1251 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1395 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1384 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 2, chosen = 0, path = [3], parent = [matches : 5, level = 1, utility =1, player = MIN, move = 2, chosen = 0, path = [5], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1395 87.6 moveto
+1395 75.75 1395 59.82 1395 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1398.5 46.08 moveto
+1395 36.08 lineto
+1391.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1398.5 46.08 moveto
+1395 36.08 lineto
+1391.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1395 58.3 moveto 7 (1) alignedtext
+grestore
+% [matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1683 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1672 14.3 moveto 22 (0/-1) alignedtext
+grestore
+% [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]->[matches : 0, level = 5, utility =-1, player = MIN, move = 1, chosen = 0, path = [0], parent = [matches : 1, level = 4, utility =-1, player = MAX, move = 1, chosen = 0, path = [1], parent = [matches : 2, level = 3, utility =-1, player = MIN, move = 1, chosen = 0, path = [2], parent = [matches : 3, level = 2, utility =1, player = MAX, move = 1, chosen = 0, path = [3], parent = [matches : 4, level = 1, utility =-1, player = MIN, move = 3, chosen = 0, path = [4], parent = [matches : 7, level = 0, utility =1000, player = MAX, move = 0, chosen = 0, path = [7], parent = None]]]]]]
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1683 87.6 moveto
+1683 75.75 1683 59.82 1683 46.29 curveto
+stroke
+0 0 0 edgecolor
+newpath 1686.5 46.08 moveto
+1683 36.08 lineto
+1679.5 46.08 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1686.5 46.08 moveto
+1683 36.08 lineto
+1679.5 46.08 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1683 58.3 moveto 7 (1) alignedtext
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 2078 520
+end
+restore
+%%EOF

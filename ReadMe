@@ -1,0 +1,21 @@
+The code can be run using command
+
+$python assignment2.py
+--------------------------------------------------
+Example:
+
+Choose 1-Minimax, 2-AlphaBeta, 3-Compare Size, 4-Performance, 5-MooreMachine
+option > 1
+n > 3
+Wrote to ps file
+Choose 1-Minimax, 2-AlphaBeta, 3-Compare Size, 4-Performance, 5-MooreMachine
+option > 
+---------------------------------------------------------------
+
+To get Minimax tree and Alpha Beta Search:
+Choose option 1/2 and input value of n. The tree is generated in the same folder
+Name of the graph file is minimax<n>.ps and alphabeta<n>.ps respectively
+
+To get MooreMachine
+Choose option 5 and input n. The graph is created in the same folder.
+Name of the file is moore1_<n>.ps moore2_<n>.ps where files with suffix moore1 are for player playing first and with suffix moore2 are for player playing second
